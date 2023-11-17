@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>farmaciaMZ</title>
+    <title>Farmacia MZ</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-
     <div class="wrapper">
         <header class="header-mobile">
-            <h1 class="logo">farmaciaMZ</h1>
+            <h1 class="logo">Farmacia MZ</h1>
             <button class="open-menu" id="open-menu">
                 <i class="bi bi-list"></i>
             </button>
@@ -23,14 +22,22 @@
                 <i class="bi bi-x"></i>
             </button>
             <header>
-                <h1 class="logo">farmaciaMZ</h1>
+                <h1 class="logo">Farmacia MZ</h1>
             </header>
             <nav>
                 <ul class="menu">
                     <li>
                         <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
                     </li>
-                
+                    <li>
+                        <button id="Uso personal" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Uso personal</button>
+                    </li>
+                    <li>
+                        <button id="Medicamentos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Medicamentos</button>
+                    </li>
+                    <li>
+                        <button id="Cosmeticos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Cosmeticos</button>
+                    </li>
                     <li>
                         <a class="boton-menu boton-carrito" href="./carrito.html">
                             <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
@@ -39,78 +46,18 @@
                 </ul>
             </nav>
             <footer>
-                <p class="texto-footer">© 2023 farmacia Meza</p>
+                <p class="texto-footer">© 2023 Farmacia MZ</p>
             </footer>
         </aside>
         <main>
             <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
             <div id="contenedor-productos" class="contenedor-productos">
-                <div class="producto">
-                    <img class="producto-imagen" src="./imagenes/primera.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">primer producto</h3>
-                        <p class="producto-precio">$12.000</p>
-                        <button class="producto-agregar">agregar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <img class="producto-imagen" src="./imagenes/segunda.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">segundo producto</h3>
-                        <p class="producto-precio">$10.000</p>
-                        <button class="producto-agregar">agregar</button>
-                    </div>
-               </div>
-               <div class="producto">
-                    <img class="producto-imagen" src="./imagenes/tercera.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">tercer producto</h3>
-                        <p class="producto-precio">$9.500</p>
-                        <button class="producto-agregar">agregar</button>
-                    </div>
-               </div>
-               <div class="producto">
-                    <img class="producto-imagen" src="./imagenes/cuarta.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">cuarto producto</h3>
-                        <p class="producto-precio">$11.900</p>
-                        <button class="producto-agregar">agregar</button>
-                    </div>
-               </div>
-               <div class="producto">
-                    <img class="producto-imagen" src="./imagenes/quinta.png" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">quinto producto</h3>
-                        <p class="producto-precio">$8.000</p>
-                        <button class="producto-agregar">agregar</button>
-                    </div>
-               </div>
-               <div class="producto">
-                    <img class="producto-imagen" src="./imagenes/sexta.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">sexto producto</h3>
-                        <p class="producto-precio">$10.200</p>
-                        <button class="producto-agregar">agregar</button>
-                    </div>
-               </div>
-               <div class="producto">
-                    <img class="producto-imagen" src="./imagenes/septima.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">septimo producto</h3>
-                        <p class="producto-precio">$14.000</p>
-                        <button class="producto-agregar">agregar</button>
-                    </div>
-               </div>
-               <div class="producto">
-                    <img class="producto-imagen" src="./imagenes/octaba.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">octavo producto</h3>
-                        <p class="producto-precio">$15.000</p>
-                        <button class="producto-agregar">agregar</button>
-                    </div>
-               </div>
-               
+            </div>
         </main>
     </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
