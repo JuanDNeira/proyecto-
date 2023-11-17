@@ -186,9 +186,6 @@ main {
     color: var(--clr-white);
 }
 
-
-/** CARRITO **/
-
 .contenedor-carrito {
     display: flex;
     flex-direction: column;
@@ -285,8 +282,6 @@ main {
 .disabled {
     display: none;
 }
-
-/*** MEDIA QUERIES ***/
 
 @media screen and (max-width: 850px) {
     .contenedor-productos {
