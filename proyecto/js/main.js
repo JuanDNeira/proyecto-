@@ -1,7 +1,7 @@
 const productos = [
 {
     id: "Uso personal-01",
-    titulo: "producto de uso personal_1",
+    titulo: "uso personal 01",
    imagen: "./img/Uso personal/1.jpg",
    categoria: {
         nombre: "Uso personal",
@@ -11,7 +11,7 @@ const productos = [
 },
 {
     id: "Uso personal-02",
-    titulo: "producto de uso personal_2",
+    titulo: "uso personal 02",
    imagen: "./img/Uso personal/2.jpg",
    categoria: {
         nombre: "Uso personal",
@@ -21,7 +21,7 @@ const productos = [
 },
 {
     id: "Uso personal-03",
-    titulo: "producto de uso personal_3",
+    titulo: "uso personal 03",
    imagen: "./img/Uso personal/3.jpg",
    categoria: {
         nombre: "Uso personal",
@@ -31,7 +31,7 @@ const productos = [
 },
 {
     id: "Uso personal-04",
-    titulo: "producto de uso personal_4",
+    titulo: "uso personal 04",
    imagen: "./img/Uso personal/4.jpg",
    categoria: {
         nombre: "Uso personal",
@@ -101,7 +101,7 @@ const productos = [
 },
 {
     id: "Cosmeticos-01",
-    titulo: "Cosmeticos 01",
+    titulo: "Cosmeticos_01",
    imagen: "./img/Cosmeticos/1.jpg",
    categoria: {
         nombre: "Cosmeticos",
@@ -111,7 +111,7 @@ const productos = [
 },
 {
     id: "Cosmeticos-02",
-    titulo: "Cosmeticos 02",
+    titulo: "Cosmeticos_02",
    imagen: "./img/Cosmeticos/2.jpg",
    categoria: {
         nombre: "Cosmeticos",
@@ -121,7 +121,7 @@ const productos = [
 },
 {
     id: "Cosmeticos-03",
-    titulo: "Cosmeticos 03",
+    titulo: "Cosmeticos_03",
    imagen: "./img/Cosmeticos/3.jpg",
    categoria: {
         nombre: "Cosmeticos",
@@ -131,7 +131,7 @@ const productos = [
 },
 {
     id: "Cosmeticos-04",
-    titulo: "Cosmeticos 04",
+    titulo: "Cosmeticos_04",
    imagen: "./img/Cosmeticos/4.jpg",
    categoria: {
         nombre: "Cosmeticos",
@@ -141,7 +141,7 @@ const productos = [
 },
 {
     id: "Cosmeticos-05",
-    titulo: "Cosmeticos 05",
+    titulo: "Cosmeticos_05",
    imagen: "./img/Cosmeticos/5.jpg",
    categoria: {
         nombre: "Cosmeticos",
@@ -151,7 +151,7 @@ const productos = [
 },
 {
     id: "Cosmeticos-06",
-    titulo: "Cosmeticos 06",
+    titulo: "Cosmeticos_06",
    imagen: "./img/Cosmeticos/6.jpg",
    categoria: {
         nombre: "Cosmeticos",
